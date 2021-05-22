@@ -22,10 +22,10 @@ post '/create' do
 end
 
 get '/category/:id' do
-    @categories    =  Category.all
-    @category      =  Category.find(params[:id])
-    @category_name =  @category.name
-    @items         =  @category.items
+    @categories    = Category.all
+    @category      = Category.find(params[:id])
+    @category_name = @category.name
+    @items         = @category.items
     erb :index
 end
 

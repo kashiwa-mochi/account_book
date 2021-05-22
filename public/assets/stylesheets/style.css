@@ -1,4 +1,16 @@
-btn-small{
+body{
+    background: rgb(253,253,253);
+}
+
+.row p {
+    font-size: 1.2rem;
+}
+
+.category {
+    font-size: 0.7rem !important;
+}
+
+.btn-small {
     font-size: 0.5rem;
-    font-family:'gstatic'
+    font-family: "Kiwi Maru";
 }
